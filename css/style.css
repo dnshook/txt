@@ -1,0 +1,43 @@
+﻿@import url(common.css); /* 引用公共样式 */
+/*------------------------------------------以下开始,以上为保留样式--------------------------------------------------*/
+body,html{font-size:14px;}
+.center{max-width:1280px;}
+.s41,.s42{display:table;height:100%;}
+.s4cb{display:table-cell;vertical-align:middle;padding-bottom:30px;text-align:center;}
+.s4cb img{height:300px;width:100%;}
+.s2img{display:block;height:60px;}
+.s321{width:74%;}
+.bot{background:#000;}
+.s32{border:0 solid #444;border-color:rgba(255,255,255,.2);border-width:2px 0;}
+.s1fj img{height:60px}
+.s1fj-1-img{width:300px;}
+
+@keyframes animIn {
+    from{display:block;margin-top:10px;opacity:0;}
+    to{margin-top:0;opacity:1;}
+}
+@media screen and (min-width:1001px) {
+    .all{min-width:1000px;}
+    .shou,.bot1{width:74%;margin:auto;}
+}
+@media screen and (max-width:1000px) {
+    .all{min-width:480px;}
+    .s2img{height:163px;}
+}
+@media screen and (max-width:1000px) {
+    .s1fj img {
+        height: 107px !important;
+    }
+    .s2img {
+        display: block;
+        height: 170px;
+    }
+}
+@media screen and (max-width:575px) {
+    .bqc p {
+        font-size: 30px;
+    }
+    .s1 {
+        font-size: 30px;
+    }
+}
